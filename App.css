@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #ebecf0;
+}
+
+.header{
+text-align: center;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.copyright{
+  color: #bdb8d7;
+}
+
+.wrapper .sidebar .menu{
+  color:#00f7c8;
+}
+
+.wrapper .sidebar{
+  width: 200px;                   
+  height: 100%;
+  background: linear-gradient(to top, #3a3985 0%, #3499ff 100%);
+  padding: 30px 0px;
+  position: fixed;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.wrapper .sidebar .copyright{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  width: max-content;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 220px;
+  background-color: #ebecf0;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+.chart{
+  border-radius: 20px;
+  margin: 50px;
+  background-color: whitesmoke;
+}
+
+.chart1{
+  background: linear-gradient(to left, #3a3985 0%, #3499ff 100%);
+}
+
+.chart2{
+  background: linear-gradient(to left, #3a3985 0%, #3499ff 100%);
+}
+
+.chart3{
+  background-color: white;
+}
+
+.data{
+  text-align: center;
+}
+
+
+.wrapper .notification{
+width: 100%;
+margin-left: 220px;
+background-color: #ebecf0;
+}
+
+.notification{
+  margin: 2rem;
+  text-align: center;
+}
+
+.post{
+  background-color:  #3d9eff;
+  border: 2px solid #00f7c8;
+  padding: 5rem ;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3%;
+}
+
